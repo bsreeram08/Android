@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Createaccount" >
+	<TextView 
+	    android:id="@+id/Page"
+	    android:text="Create New Account."
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:textSize="20dp"
+		android:layout_margin="5dp"
+	    />
+    <TextView 
+        android:id="@+id/userdetails"
+        android:text="Enter new username:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_margin="5dp"
+        />
+   <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="username" 
+        android:layout_margin="5dp"
+        />
+   <TextView 
+        android:id="@+id/emaildetails"
+        android:text="Enter your email id :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_margin="5dp"
+        />
+   <EditText
+        android:id="@+id/emailid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="emailid@something.com" 
+        android:layout_margin="5dp"
+        />
+   <TextView 
+        android:id="@+id/mobilenodetails"
+        android:text="Enter your mobilenumber:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_margin="5dp"
+        />
+   <EditText
+        android:id="@+id/mobileno"
+        android:inputType="Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="+91" 
+        android:layout_margin="5dp"
+        />
+   <TextView 
+        android:id="@+id/passworddetails"
+        android:text="Enter new Password:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_margin="5dp"
+        />
+   <EditText
+        android:id="@+id/password"
+        android:inputType="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="min 8 char" 
+        android:layout_margin="5dp"
+        />
+   <TextView 
+        android:id="@+id/reenterpassworddetails"
+        android:text="Enter your password again:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_margin="5dp"
+        />
+   <EditText
+        android:id="@+id/reenterpassword"
+        android:inputType="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="same as the above" 
+        android:layout_margin="5dp"
+        />
+   <Button 
+       android:id="@+id/proceed" 
+	    android:layout_width="100dp"
+	    android:layout_height="30dp"
+	    android:layout_margin="5dp"
+	    android:ems="5"
+	    android:background="@drawable/my_button_bg"
+	    android:text="Proceed"
+       />
+</LinearLayout>

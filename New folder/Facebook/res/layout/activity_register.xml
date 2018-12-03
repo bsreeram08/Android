@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=""
+    android:focusable="true"
+    tools:context=".Register" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_launcher" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint="username" />
+	<EditText 
+	    android:id="@+id/password"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="210dp"
+		android:ems="10"
+		android:hint="Password"
+		android:inputType="textPassword"
+	    />
+	<Button 
+	    android:id="@+id/newuser"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginTop="320dp"
+	    android:ems="5"
+	    android:text="New User"	    
+	    />
+	<Button
+	    android:id="@+id/login" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="190dp"
+	    android:layout_marginTop="320dp"
+	    android:ems="5"
+	    android:text="Login"
+	    />
+
+</RelativeLayout>

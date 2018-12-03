@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".LinearLayout" 
+	<LinearLayout 
+    	android:id="@+id/LinearLayout1_1"
+    	android:layout_width="match_parent"
+    	android:layout_weight="1"
+    	android:layout_height="220dp"
+    	android:background="#33CBFF"
+    	android:gravity="center"
+	    >
+	    <ImageView 
+	        android:id="@+id/signupimage"
+	        android:src="@drawable/signup"
+	        android:layout_width="120dp"
+	        android:layout_height="120dp"
+	        />
+	    
+	</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1_1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="38dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="5" >
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Username" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="emailid@email.com"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="SignUp" />
+
+        <Button
+            android:id="@+id/signupfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="SignUp with Facebook" />
+    </LinearLayout>
+
+</RelativeLayout>
