@@ -1,0 +1,43 @@
+package com.sreeram.Faceappgram;
+
+import android.R.string;
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class Createacc extends Activity {
+	Button Create;
+	EditText fname,lname,fullname,username,password,confirmpw,emailid,phoneno;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_createacc);
+		fname=(EditText)findViewById(R.id.firstname);
+		lname=(EditText)findViewById(R.id.lastname);
+		fullname=(EditText)findViewById(R.id.fullname);
+		username=(EditText)findViewById(R.id.usernamecreate);
+		password=(EditText)findViewById(R.id.passwordcreate);
+		confirmpw=(EditText)findViewById(R.id.confirmpassword);
+		emailid=(EditText)findViewById(R.id.emailid);
+		phoneno=(EditText)findViewById(R.id.phoneno);
+		Create=(Button)findViewById(R.id.createaccsubmit);
+		fullname.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				String firstname = fname.getText().toString();
+				String lastname = lname.getText().toString();
+				String full_name=firstname+lastname;
+				fullname
+				
+			}
+		});
+		
+	}
+
+
+}

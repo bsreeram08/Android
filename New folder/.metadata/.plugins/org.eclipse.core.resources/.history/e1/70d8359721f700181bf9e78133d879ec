@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+    android:innerRadius="30"
+    ></shape>
+<stroke xmlns:android="http://schemas.android.com/apk/res/android" 
+    
+    >
+    
+
+</stroke>

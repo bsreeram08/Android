@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="27" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="224" y="224">
+<window height="1038" maximized="true" width="976" x="952" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="250"/>
@@ -24,6 +24,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -35,53 +36,48 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="6"/>
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_login.xml" partName="activity_login.xml" path="D:/adt-bundle-windows-x86/New folder/Facebook/res/layout/activity_login.xml" title="activity_login.xml" tooltip="Facebook/res/layout/activity_login.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Facebook/res/layout/activity_login.xml"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="D:/adt-bundle-windows-x86/New folder/Faceappgram/res/values/strings.xml" title="strings.xml" tooltip="Faceappgram/res/values/strings.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Faceappgram/res/values/strings.xml"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" partName="R.java" path="D:/adt-bundle-windows-x86/New folder/Facebook/gen/com/example/facebook/R.java" title="R.java" tooltip="Facebook/gen/com/example/facebook/R.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Facebook/gen/com/example/facebook/R.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="login_btn.xml" partName="login_btn.xml" path="D:/adt-bundle-windows-x86/New folder/Faceappgram/res/drawable/login_btn.xml" title="login_btn.xml" tooltip="Faceappgram/res/drawable/login_btn.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Faceappgram/res/drawable/login_btn.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_login.xml" partName="activity_login.xml" path="D:/adt-bundle-windows-x86/New folder/Facebook/res/menu/activity_login.xml" title="activity_login.xml" tooltip="Facebook/res/menu/activity_login.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Facebook/res/menu/activity_login.xml"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="background_fill.xml" partName="background_fill.xml" path="D:/adt-bundle-windows-x86/New folder/Faceappgram/res/drawable/background_fill.xml" title="background_fill.xml" tooltip="Faceappgram/res/drawable/background_fill.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Faceappgram/res/drawable/background_fill.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="Facebook Manifest" path="D:/adt-bundle-windows-x86/New folder/Facebook/AndroidManifest.xml" title="Facebook Manifest" tooltip="Facebook/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Facebook/AndroidManifest.xml"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="edittext_bg.xml" partName="edittext_bg.xml" path="D:/adt-bundle-windows-x86/New folder/Faceappgram/res/drawable/edittext_bg.xml" title="edittext_bg.xml" tooltip="Faceappgram/res/drawable/edittext_bg.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Faceappgram/res/drawable/edittext_bg.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_register.xml" partName="activity_register.xml" path="D:/adt-bundle-windows-x86/New folder/Facebook/res/layout/activity_register.xml" title="activity_register.xml" tooltip="Facebook/res/layout/activity_register.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Facebook/res/layout/activity_register.xml"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="styles.xml" partName="styles.xml" path="D:/adt-bundle-windows-x86/New folder/Faceappgram/res/values/styles.xml" title="styles.xml" tooltip="Faceappgram/res/values/styles.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Faceappgram/res/values/styles.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_start.xml" partName="activity_start.xml" path="D:/adt-bundle-windows-x86/New folder/Twitter/res/layout/activity_start.xml" title="activity_start.xml" tooltip="Twitter/res/layout/activity_start.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Twitter/res/layout/activity_start.xml"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Login.java" partName="Login.java" path="D:/adt-bundle-windows-x86/New folder/Faceappgram/src/com/sreeram/Faceappgram/Login.java" title="Login.java" tooltip="Faceappgram/src/com/sreeram/Faceappgram/Login.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Faceappgram/src/com/sreeram/Faceappgram/Login.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="755" selectionTopPixel="134"/>
 </editor>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_loginpage.xml" partName="activity_loginpage.xml" path="D:/adt-bundle-windows-x86/New folder/Twitter/res/layout/activity_loginpage.xml" title="activity_loginpage.xml" tooltip="Twitter/res/layout/activity_loginpage.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Twitter/res/layout/activity_loginpage.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="my_button_bg.xml" partName="my_button_bg.xml" path="D:/adt-bundle-windows-x86/New folder/Twitter/res/drawable/my_button_bg.xml" title="my_button_bg.xml" tooltip="Twitter/res/drawable/my_button_bg.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Twitter/res/drawable/my_button_bg.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_createaccount.xml" partName="activity_createaccount.xml" path="D:/adt-bundle-windows-x86/New folder/Twitter/res/layout/activity_createaccount.xml" title="activity_createaccount.xml" tooltip="Twitter/res/layout/activity_createaccount.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Twitter/res/layout/activity_createaccount.xml"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_login.xml" partName="activity_login.xml" path="D:/adt-bundle-windows-x86/New folder/Faceappgram/res/layout/activity_login.xml" title="activity_login.xml" tooltip="Faceappgram/res/layout/activity_login.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Faceappgram/res/layout/activity_login.xml"/>
 </editor>
 </editors>
 <views>
+<view id="com.android.ide.eclipse.ddms.views.AllocTrackerView" partName="Allocation Tracker"/>
+<view id="com.android.ide.eclipse.ddms.views.FileExplorerView" partName="File Explorer"/>
 <view id="com.android.ide.eclipse.ddms.views.ThreadView" partName="Threads">
 <viewState/>
 </view>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+<view id="com.android.ide.eclipse.ddms.views.NetworkStatsView" partName="Network Statistics"/>
+<view id="com.android.ide.eclipse.ddms.views.EmulatorControlView" partName="Emulator Control"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
 <customFilters userDefinedPatternsEnabled="false">
@@ -113,14 +109,6 @@
 <viewState/>
 </view>
 <view id="com.android.ide.eclipse.ddms.views.HeapView" partName="Heap"/>
-<view id="com.android.ide.eclipse.ddms.views.AllocTrackerView" partName="Allocation Tracker"/>
-<view id="com.android.ide.eclipse.ddms.views.FileExplorerView" partName="File Explorer"/>
-<view id="com.android.ide.eclipse.ddms.views.NetworkStatsView" partName="Network Statistics"/>
-<view id="com.android.ide.eclipse.ddms.views.EmulatorControlView" partName="Emulator Control"/>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
 <viewState/>
 </view>
@@ -128,7 +116,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.android.ide.eclipse.editors.CommonXmlEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
 <descriptor class="com.android.ide.eclipse.ddms.Perspective" id="com.android.ide.eclipse.ddms.Perspective" label="DDMS"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -265,10 +253,7 @@
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.jdt.ui.JavadocView"/>
-<view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -292,36 +277,37 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.249499" ratioLeft="249" ratioRight="749" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.29461458" ratioLeft="279" ratioRight="668" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.8245033" ratioLeft="747" ratioRight="159" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
-<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.8237779" ratioLeft="1365" ratioRight="292" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="right" ratio="0.5593116" ratioLeft="910" ratioRight="717" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@5e5d1d" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="4" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1a8173" ratio="0.7491749" ratioLeft="681" ratioRight="228" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </mainWindow>
@@ -331,80 +317,116 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Twitter/res/layout/activity_start.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Twitter/res/layout/activity_loginpage.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Twitter/res/drawable/my_button_bg.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Facebook/res/layout/activity_register.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/Twitter/res/layout/activity_loginpage.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/layouttrial/res/layout/activity_linear.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Twitter/res/layout/activity_createaccount.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Twitter/res/drawable/my_button_bg.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Twitter/res/layout/activity_loginpage.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Twitter/res/layout/activity_start.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Facebook/res/layout/activity_register.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Faceappgram/res/layout/activity_login.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Faceappgram/res/drawable/edittext_bg.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Faceappgram/res/drawable/login_btn.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Faceappgram/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Faceappgram/src/com/sreeram/Faceappgram/Login.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TextViewJava/res/layout/activity_textview.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Faceappgram/res/drawable/background_fill.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Faceappgram/res/values/styles.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/Faceappgram/res/layout/activity_login.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Faceappgram/res/layout/activity_login.xml"/>
 </editors>
-<item historyLabel="activity_start.xml" index="0"/>
-<item historyLabel="my_button_bg.xml" index="2"/>
-<item historyLabel="activity_start.xml" index="0"/>
-<item historyLabel="my_button_bg.xml" index="2"/>
-<item historyLabel="activity_start.xml" index="0"/>
-<item historyLabel="my_button_bg.xml" index="2"/>
-<item historyLabel="activity_start.xml" index="0"/>
-<item historyLabel="my_button_bg.xml" index="2"/>
-<item historyLabel="activity_start.xml" index="0"/>
-<item historyLabel="my_button_bg.xml" index="2"/>
-<item historyLabel="activity_loginpage.xml" index="1"/>
-<item historyLabel="activity_start.xml" index="0"/>
-<item historyLabel="my_button_bg.xml" index="2"/>
-<item historyLabel="activity_start.xml" index="0"/>
-<item historyLabel="activity_loginpage.xml" index="1"/>
-<item historyLabel="activity_start.xml" index="0"/>
-<item historyLabel="activity_loginpage.xml" index="1"/>
-<item historyLabel="my_button_bg.xml" index="2"/>
-<item historyLabel="activity_loginpage.xml" index="1"/>
-<item historyLabel="activity_start.xml" index="0"/>
-<item historyLabel="activity_register.xml" index="3"/>
-<item historyLabel="activity_start.xml" index="0"/>
-<item historyLabel="activity_loginpage.xml" index="1"/>
-<item historyLabel="my_button_bg.xml" index="2"/>
-<item historyLabel="activity_loginpage.xml" index="1">
-<position info="not_deleted" x="242" y="0"/>
+<item historyLabel="activity_textview.xml" index="5"/>
+<item historyLabel="edittext_bg.xml" index="1"/>
+<item historyLabel="Login.java" index="4">
+<position info="not_deleted" x="1178" y="0"/>
 </item>
-<item historyLabel="activity_loginpage.xml" index="4">
-<position info="not_deleted" x="1025" y="341"/>
+<item historyLabel="edittext_bg.xml" index="1"/>
+<item historyLabel="login_btn.xml" index="2"/>
+<item historyLabel="activity_login.xml" index="0"/>
+<item historyLabel="edittext_bg.xml" index="1"/>
+<item historyLabel="activity_login.xml" index="0"/>
+<item historyLabel="edittext_bg.xml" index="1"/>
+<item historyLabel="activity_login.xml" index="0"/>
+<item historyLabel="edittext_bg.xml" index="1"/>
+<item historyLabel="activity_login.xml" index="0"/>
+<item historyLabel="strings.xml" index="3"/>
+<item historyLabel="login_btn.xml" index="2"/>
+<item historyLabel="background_fill.xml" index="6"/>
+<item historyLabel="edittext_bg.xml" index="1"/>
+<item historyLabel="styles.xml" index="7"/>
+<item historyLabel="Login.java" index="4">
+<position info="not_deleted" x="755" y="0"/>
 </item>
-<item historyLabel="activity_start.xml" index="0"/>
-<item historyLabel="activity_loginpage.xml" index="1"/>
-<item historyLabel="activity_linear.xml" index="5"/>
-<item historyLabel="my_button_bg.xml" index="2"/>
-<item historyLabel="activity_loginpage.xml" index="1"/>
-<item historyLabel="activity_createaccount.xml" index="6"/>
-<item historyLabel="activity_linear.xml" index="5"/>
-<item historyLabel="my_button_bg.xml" index="2"/>
-<item historyLabel="activity_loginpage.xml" index="1"/>
-<item historyLabel="activity_createaccount.xml" index="6"/>
-<item historyLabel="activity_linear.xml" index="5"/>
-<item historyLabel="activity_createaccount.xml" index="6"/>
-<item historyLabel="activity_loginpage.xml" index="1"/>
-<item historyLabel="activity_createaccount.xml" index="6">
-<position info="not_deleted" x="3332" y="0"/>
+<item historyLabel="activity_login.xml" index="0">
+<position info="not_deleted" x="2016" y="0"/>
 </item>
-<item historyLabel="my_button_bg.xml" index="7"/>
-<item historyLabel="activity_createaccount.xml" index="6"/>
-<item historyLabel="my_button_bg.xml" index="7"/>
-<item historyLabel="activity_loginpage.xml" index="8"/>
-<item historyLabel="activity_start.xml" index="9"/>
-<item historyLabel="activity_register.xml" index="10"/>
-<item historyLabel="activity_start.xml" index="9"/>
-<item historyLabel="activity_loginpage.xml" index="8"/>
-<item historyLabel="my_button_bg.xml" index="7"/>
-<item active="true" historyLabel="activity_loginpage.xml" index="8"/>
+<item historyLabel="activity_login.xml" index="8">
+<position info="not_deleted" x="2876" y="289"/>
+</item>
+<item historyLabel="strings.xml" index="3"/>
+<item historyLabel="activity_login.xml" index="0"/>
+<item historyLabel="edittext_bg.xml" index="1"/>
+<item historyLabel="activity_login.xml" index="0"/>
+<item historyLabel="edittext_bg.xml" index="1"/>
+<item historyLabel="activity_login.xml" index="0"/>
+<item historyLabel="edittext_bg.xml" index="1"/>
+<item historyLabel="background_fill.xml" index="6"/>
+<item historyLabel="activity_login.xml" index="0"/>
+<item historyLabel="edittext_bg.xml" index="1"/>
+<item historyLabel="activity_login.xml" index="0"/>
+<item historyLabel="edittext_bg.xml" index="1"/>
+<item historyLabel="activity_login.xml" index="0"/>
+<item historyLabel="edittext_bg.xml" index="1"/>
+<item historyLabel="activity_login.xml" index="0">
+<position info="not_deleted" x="326" y="3527"/>
+</item>
+<item historyLabel="activity_login.xml" index="8">
+<position info="not_deleted" x="6504" y="0"/>
+</item>
+<item historyLabel="activity_login.xml" index="8">
+<position/>
+</item>
+<item historyLabel="activity_login.xml" index="8">
+<position info="not_deleted" x="903" y="270"/>
+</item>
+<item historyLabel="activity_login.xml" index="8">
+<position/>
+</item>
+<item historyLabel="activity_login.xml" index="8">
+<position/>
+</item>
+<item historyLabel="activity_login.xml" index="8">
+<position info="not_deleted" x="6504" y="0"/>
+</item>
+<item historyLabel="activity_login.xml" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="activity_login.xml" index="8">
+<position info="not_deleted" x="5734" y="0"/>
+</item>
+<item historyLabel="activity_login.xml" index="8">
+<position info="not_deleted" x="5741" y="0"/>
+</item>
+<item historyLabel="activity_login.xml" index="8">
+<position info="not_deleted" x="3974" y="0"/>
+</item>
+<item historyLabel="activity_login.xml" index="0">
+<position info="not_deleted" x="4102" y="0"/>
+</item>
+<item historyLabel="activity_login.xml" index="8">
+<position info="not_deleted" x="326" y="3527"/>
+</item>
+<item historyLabel="edittext_bg.xml" index="1"/>
+<item historyLabel="activity_login.xml" index="9"/>
+<item active="true" historyLabel="Login.java" index="4">
+<position info="not_deleted" x="755" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -413,42 +435,55 @@
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.HeapStatus"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@c356e4"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_createaccount.xml" tooltip="Twitter/res/layout/activity_createaccount.xml">
-<persistable path="/Twitter/res/layout/activity_createaccount.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_login.xml" tooltip="Faceappgram/res/layout/activity_login.xml">
+<persistable path="/Faceappgram/res/layout/activity_login.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_linear.xml" tooltip="layouttrial/res/layout/activity_linear.xml">
-<persistable path="/layouttrial/res/layout/activity_linear.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Login.java" tooltip="Faceappgram/src/com/sreeram/Faceappgram/Login.java">
+<persistable path="/Faceappgram/src/com/sreeram/Faceappgram/Login.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="styles.xml" tooltip="Faceappgram/res/values/styles.xml">
+<persistable path="/Faceappgram/res/values/styles.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="edittext_bg.xml" tooltip="Faceappgram/res/drawable/edittext_bg.xml">
+<persistable path="/Faceappgram/res/drawable/edittext_bg.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="background_fill.xml" tooltip="Faceappgram/res/drawable/background_fill.xml">
+<persistable path="/Faceappgram/res/drawable/background_fill.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="shape.xml" tooltip="loginlinearlayout/res/drawable/shape.xml">
+<persistable path="/loginlinearlayout/res/drawable/shape.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="my_button_bg.xml" tooltip="Twitter/res/drawable/my_button_bg.xml">
 <persistable path="/Twitter/res/drawable/my_button_bg.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_loginpage.xml" tooltip="Twitter/res/layout/activity_loginpage.xml">
-<persistable path="/Twitter/res/layout/activity_loginpage.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="login_btn.xml" tooltip="Faceappgram/res/drawable/login_btn.xml">
+<persistable path="/Faceappgram/res/drawable/login_btn.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_start.xml" tooltip="Twitter/res/layout/activity_start.xml">
-<persistable path="/Twitter/res/layout/activity_start.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="Faceappgram/res/values/strings.xml">
+<persistable path="/Faceappgram/res/values/strings.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_register.xml" tooltip="Facebook/res/layout/activity_register.xml">
-<persistable path="/Facebook/res/layout/activity_register.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="loginlinearlayout/res/layout/activity_main.xml">
+<persistable path="/loginlinearlayout/res/layout/activity_main.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Login.java" tooltip="Facebook/src/com/example/facebook/Login.java">
-<persistable path="/Facebook/src/com/example/facebook/Login.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_linear.xml" tooltip="layouttrial/res/layout/activity_linear.xml">
+<persistable path="/layouttrial/res/layout/activity_linear.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Facebook/AndroidManifest.xml">
-<persistable path="/Facebook/AndroidManifest.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_linear_layout.xml" tooltip="LinearLayout/res/layout/activity_linear_layout.xml">
+<persistable path="/LinearLayout/res/layout/activity_linear_layout.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_login.xml" tooltip="Facebook/res/menu/activity_login.xml">
-<persistable path="/Facebook/res/menu/activity_login.xml"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Activity.class" tooltip="android.app.Activity">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=TextViewJava/C:\/Users\/Sreeram\/Documents\/Android Intern\/AndroidBundle\/adt-bundle-windows-x86\/sdk\/platforms\/android-17\/android.jar&lt;android.app(Activity.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="Facebook/gen/com/example/facebook/R.java">
-<persistable path="/Facebook/gen/com/example/facebook/R.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Textview.java" tooltip="TextViewJava/src/com/sreeram/textviewjava/Textview.java">
+<persistable path="/TextViewJava/src/com/sreeram/textviewjava/Textview.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_login.xml" tooltip="Facebook/res/layout/activity_login.xml">
-<persistable path="/Facebook/res/layout/activity_login.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="TextViewJava/gen/com/sreeram/textviewjava/R.java">
+<persistable path="/TextViewJava/gen/com/sreeram/textviewjava/R.java"/>
 </file>
 </mruList>
 </workbench>

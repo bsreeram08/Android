@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.sreeram.textviewjava.R.drawable"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="com.sreeram.textviewjava.Textview"/>
+<fullyQualifiedTypeName name="com.sreeram.textviewjava.R.id"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="java.lang.Appendable"/>
+<fullyQualifiedTypeName name="android.preference.EditTextPreference"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="com.sreeram.Faceappgram.R.id"/>
+</qualifiedTypeNameHistroy>
