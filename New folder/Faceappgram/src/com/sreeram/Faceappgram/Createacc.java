@@ -1,8 +1,7 @@
 package com.sreeram.Faceappgram;
-
-import android.R.string;
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -10,7 +9,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class Createacc extends Activity {
-	Button Create;
+	Button Create,back_btn;
+	int flag=0;
 	EditText fname,lname,fullname,username,password,confirmpw,emailid,phoneno;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,8 @@ public class Createacc extends Activity {
 		emailid=(EditText)findViewById(R.id.emailid);
 		phoneno=(EditText)findViewById(R.id.phoneno);
 		Create=(Button)findViewById(R.id.createaccsubmit);
+		back_btn=(Button)findViewById(R.id.backtomain);
+		
 		fullname.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -48,6 +50,7 @@ public class Createacc extends Activity {
 				String cnf_pword=confirmpw.getText().toString();
 				String e_id=emailid.getText().toString();
 				String phno=phoneno.getText().toString();
+				
 				if(firstname.isEmpty()&&lastname.isEmpty()&&full_name.isEmpty()&&u_name.isEmpty()&&pword.isEmpty()&&cnf_pword.isEmpty()&&e_id.isEmpty()&& phno.isEmpty())
 				{
 					String data="All Fields empty!";
@@ -114,7 +117,30 @@ public class Createacc extends Activity {
 					{
 						String data="Created Sucessfully!";
 						Toast.makeText(Createacc.this,data,Toast.LENGTH_LONG).show();
+						flag=1;
 					}
+				}
+			}
+		});
+		back_btn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				String u_name=username.getText().toString();
+				String pword=password.getText().toString();
+				if(flag==1)
+				{
+					Intent loginpg =new Intent(Createacc.this,Login.class);
+					Bundle b1 = new Bundle();
+					b1.putString("uname",u_name);
+					b1.putString("password",pword);
+					loginpg.putExtras(b1);
+					startActivity(loginpg);
+				}
+				else
+				{
+					Intent createpage = new Intent(Createacc.this,Login.class);
+					startActivity(createpage);
 				}
 			}
 		});

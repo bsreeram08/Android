@@ -11,26 +11,33 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int background_fill=0x7f020000;
-        public static final int edittext_bg=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int lock=0x7f020003;
-        public static final int login_btn=0x7f020004;
-        public static final int pass=0x7f020005;
-        public static final int textfield_create=0x7f020006;
-        public static final int user=0x7f020007;
-        public static final int user1=0x7f020008;
+        public static final int backbtn=0x7f020000;
+        public static final int background_fill=0x7f020001;
+        public static final int edittext_bg=0x7f020002;
+        public static final int fbbtn=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int lock=0x7f020005;
+        public static final int login_btn=0x7f020006;
+        public static final int pass=0x7f020007;
+        public static final int textfield_create=0x7f020008;
+        public static final int twtbtn=0x7f020009;
+        public static final int user=0x7f02000a;
+        public static final int user1=0x7f02000b;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f070016;
-        public static final int LinearLayout3=0x7f070026;
-        public static final int appname=0x7f070018;
+        public static final int LinearLayout1=0x7f070023;
+        public static final int LinearLayout3=0x7f070032;
+        public static final int appname=0x7f070025;
+        public static final int backtomain=0x7f070016;
+        public static final int button1=0x7f070022;
+        public static final int button2=0x7f07001f;
+        public static final int buttonlayout=0x7f070014;
         public static final int confirmpassword=0x7f07000e;
-        public static final int createaccbutton=0x7f07002c;
+        public static final int createaccbutton=0x7f070037;
         public static final int createaccountlayout=0x7f070000;
-        public static final int createaccsubmit=0x7f070014;
+        public static final int createaccsubmit=0x7f070018;
         public static final int createaccv1=0x7f070003;
-        public static final int createaccv10=0x7f070015;
+        public static final int createaccv10=0x7f07001a;
         public static final int createaccv12=0x7f070001;
         public static final int createaccv2=0x7f070005;
         public static final int createaccv3=0x7f070007;
@@ -41,42 +48,51 @@ public final class R {
         public static final int createaccv8=0x7f070011;
         public static final int createaccv9=0x7f070013;
         public static final int createtext=0x7f070002;
+        public static final int editText1=0x7f07001c;
+        public static final int editText2=0x7f07001e;
+        public static final int editText3=0x7f070021;
         public static final int emailid=0x7f070012;
-        public static final int facebook=0x7f070027;
+        public static final int facebook=0x7f070033;
         public static final int firstname=0x7f070004;
-        public static final int forgotpassword=0x7f07001e;
+        public static final int forgotpassword=0x7f07002b;
         public static final int fullname=0x7f070008;
         public static final int lastname=0x7f070006;
-        public static final int layout2v1=0x7f070023;
-        public static final int layout2v2=0x7f070025;
-        public static final int layout2v3=0x7f070029;
-        public static final int layout2v4=0x7f07002b;
-        public static final int layout2v5=0x7f07002d;
-        public static final int menu_settings=0x7f07002e;
-        public static final int or=0x7f070022;
-        public static final int password=0x7f07001c;
+        public static final int layout2v1=0x7f070030;
+        public static final int layout2v2=0x7f070031;
+        public static final int layout2v3=0x7f070035;
+        public static final int layout2v4=0x7f070036;
+        public static final int layout2v5=0x7f070038;
+        public static final int menu_settings=0x7f070039;
+        public static final int or=0x7f07002f;
+        public static final int password=0x7f070029;
         public static final int passwordcreate=0x7f07000c;
         public static final int phoneno=0x7f070010;
-        public static final int submit=0x7f070020;
-        public static final int textView1=0x7f070024;
-        public static final int textView2=0x7f07002a;
-        public static final int twitter=0x7f070028;
-        public static final int username=0x7f07001a;
+        public static final int sepbtns1=0x7f070017;
+        public static final int sepbtns2=0x7f070019;
+        public static final int sepbtns3=0x7f070015;
+        public static final int submit=0x7f07002d;
+        public static final int textView1=0x7f07001b;
+        public static final int textView2=0x7f07001d;
+        public static final int textView3=0x7f070020;
+        public static final int twitter=0x7f070034;
+        public static final int username=0x7f070027;
         public static final int usernamecreate=0x7f07000a;
-        public static final int view1=0x7f070017;
-        public static final int view2=0x7f070019;
-        public static final int view3=0x7f07001b;
-        public static final int view4=0x7f07001d;
-        public static final int view5=0x7f07001f;
-        public static final int view6=0x7f070021;
+        public static final int view1=0x7f070024;
+        public static final int view2=0x7f070026;
+        public static final int view3=0x7f070028;
+        public static final int view4=0x7f07002a;
+        public static final int view5=0x7f07002c;
+        public static final int view6=0x7f07002e;
     }
     public static final class layout {
         public static final int activity_createacc=0x7f030000;
-        public static final int activity_login=0x7f030001;
+        public static final int activity_forgotpwpage=0x7f030001;
+        public static final int activity_login=0x7f030002;
     }
     public static final class menu {
         public static final int activity_createacc=0x7f060000;
-        public static final int activity_login=0x7f060001;
+        public static final int activity_forgotpwpage=0x7f060001;
+        public static final int activity_login=0x7f060002;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
@@ -84,6 +100,7 @@ public final class R {
         public static final int hello_world=0x7f040001;
         public static final int menu_settings=0x7f040002;
         public static final int title_activity_createacc=0x7f040004;
+        public static final int title_activity_forgotpwpage=0x7f040005;
     }
     public static final class style {
         /** 

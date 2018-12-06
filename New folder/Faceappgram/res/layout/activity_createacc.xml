@@ -166,18 +166,57 @@
 	        android:layout_weight="1"
 	        android:layout_height="0dp"
 	        />
-	    <Button 
-	        android:id="@+id/createaccsubmit"
-	        android:layout_width="200dp"
+
+	    <LinearLayout
+	        android:id="@+id/buttonlayout"
+	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
-	        android:text="Confirm Credentials"
-	        android:background="@drawable/login_btn"
-	        />
+	        android:layout_weight="0.78"
+	        android:orientation="horizontal"
+	        android:weightSum="5" >
+			<View 
+			    android:layout_weight="1"
+			    android:layout_width="0dp"
+			    android:layout_height="0dp"
+			    android:id="@+id/sepbtns3"
+			    />
+			<Button
+	        android:id="@+id/backtomain"
+	        android:layout_weight="1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/backbtn"
+	        android:text="Back"
+	         />
+			<View 
+			    android:layout_weight="1"
+			    android:layout_width="0dp"
+			    android:layout_height="0dp"
+			    android:id="@+id/sepbtns1"
+			    />
+			<Button
+			    android:id="@+id/createaccsubmit"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:background="@drawable/login_btn"
+			    android:text="Confirm Credentials" />
+			
+			<View 
+			    android:layout_weight="1"
+			    android:layout_width="0dp"
+			    android:layout_height="0dp"
+			    android:id="@+id/sepbtns2"
+			    />
+	        
+	    </LinearLayout>
+	    
 	    <View 
 	        android:id="@+id/createaccv10"
 	        android:layout_width="0dp"
 	        android:layout_weight="1"
 	        android:layout_height="0dp"
 	        />
+
 </LinearLayout>
 </RelativeLayout>

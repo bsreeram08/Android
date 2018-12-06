@@ -45,35 +45,35 @@
             android:layout_height="0dp"
             />
         
-        <EditText 
+        <EditText
             android:id="@+id/username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/user"
             android:background="@drawable/edittext_bg"
+            android:drawableLeft="@drawable/user"
             android:drawablePadding="10dp"
             android:ems="12"
-            android:textColorHint="#FFFFFF"
             android:hint="Username"
-            
-            />
+            android:textColorHint="#FFFFFF" />
+
         <View 
             android:id="@+id/view3"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             />
-        <EditText 
+
+        <EditText
             android:id="@+id/password"
             android:layout_width="wrap_content"
-            android:textColorHint="#FFFFFF"
             android:layout_height="wrap_content"
-            android:ems="12"
             android:background="@drawable/edittext_bg"
             android:drawableLeft="@drawable/pass"
-            android:inputType="textPassword"
+            android:ems="12"
             android:hint="Password"
-            />
+            android:inputType="textPassword"
+            android:textColorHint="#FFFFFF" />
+
         <View 
             android:id="@+id/view4"
             android:layout_weight="1"
@@ -141,31 +141,55 @@
 	    <LinearLayout 
 	        android:id="@+id/LinearLayout3"
 	        android:layout_weight="1"
+	        android:weightSum="5"
 	    android:layout_width="match_parent"
 	    android:gravity="center_horizontal"
 	    android:layout_height="wrap_content"
 	        >
-	        
-	        <Button
-	        android:id="@+id/facebook"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:layout_marginLeft="29dp"
-	        android:background="#54619E"
-	        android:ems="6"
-	        android:text="f"
-	        android:textColor="#FFFFFF" />
+	        <View 
+			    android:layout_weight="1"
+			    android:layout_width="0dp"
+			    android:layout_height="0dp"
+			    android:id="@+id/sepbtns3"
+			    />
 
-	    <Button
-	        android:id="@+id/twitter"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:layout_marginLeft="16dp"
-	        android:background="#6CB3EB"
-	        android:ems="6"
-	        android:textColor="#FFFFFF"
-	        android:text="t" />
-	        
+	        <Button
+	            android:id="@+id/facebook"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="29dp"
+	            android:background="@drawable/fbbtn"
+	            android:ems="6"
+	            android:text="f"
+	            android:layout_weight="1"
+	            android:textColor="#FFFFFF"
+	            android:textSize="20dp" />
+
+			<View 
+			    android:layout_weight="1"
+			    android:layout_width="0dp"
+			    android:layout_height="0dp"
+			    android:id="@+id/sepbtns2"
+			    />
+
+			<Button
+			    android:id="@+id/twitter"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="16dp"
+			    android:background="@drawable/twtbtn"
+			    android:ems="6"
+			    android:text="t"
+			    android:layout_weight="1"
+			    android:textColor="#FFFFFF"
+			    android:textSize="20dp" />
+
+	        <View 
+			    android:layout_weight="1"
+			    android:layout_width="30dp"
+			    android:layout_height="0dp"
+			    android:id="@+id/sepbtns1"
+			    />
 	        
 	    </LinearLayout>
 	    <View 
@@ -179,7 +203,7 @@
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_marginTop="15dp"
-	        android:text="New Here"
+	        android:text="New Here?"
 	        android:textColor="#FFFFFF" />
 	    <View 
 	        android:id="@+id/layout2v4"

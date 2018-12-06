@@ -6,5 +6,6 @@
     <string name="menu_settings">Settings</string>
     <string name="forgotPassword"><u>Forgot your password?</u></string>
     <string name="title_activity_createacc">Createacc</string>
+    <string name="title_activity_forgotpwpage">Forgotpwpage</string>
 
 </resources>

@@ -26,6 +26,10 @@
             android:name="com.sreeram.Faceappgram.Createacc"
             android:label="@string/title_activity_createacc" >
         </activity>
+        <activity
+            android:name="com.sreeram.Faceappgram.Forgotpwpage"
+            android:label="@string/title_activity_forgotpwpage" >
+        </activity>
     </application>
 
 </manifest>
