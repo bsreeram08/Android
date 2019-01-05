@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="26" version="2.0">
+<workbench progressCount="27" version="2.0">
 <workbenchAdvisor/>
 <window height="1038" maximized="true" width="976" x="952" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -24,6 +24,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -41,27 +42,49 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Forgotpwpage.java" partName="Forgotpwpage.java" path="D:/adt-bundle-windows-x86/New folder/Faceappgram/src/com/sreeram/Faceappgram/Forgotpwpage.java" title="Forgotpwpage.java" tooltip="Faceappgram/src/com/sreeram/Faceappgram/Forgotpwpage.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Faceappgram/src/com/sreeram/Faceappgram/Forgotpwpage.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_sharedpref.xml" partName="activity_sharedpref.xml" path="D:/adt-bundle-windows-x86/New folder/Sharedpref/res/layout/activity_sharedpref.xml" title="activity_sharedpref.xml" tooltip="Sharedpref/res/layout/activity_sharedpref.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sharedpref/res/layout/activity_sharedpref.xml"/>
 </editor>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="D:/adt-bundle-windows-x86/New folder/task3/res/layout/activity_main.xml" title="activity_main.xml" tooltip="task3/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/task3/res/layout/activity_main.xml"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_sharedpref2.xml" partName="activity_sharedpref2.xml" path="D:/adt-bundle-windows-x86/New folder/Sharedpref/res/layout/activity_sharedpref2.xml" title="activity_sharedpref2.xml" tooltip="Sharedpref/res/layout/activity_sharedpref2.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sharedpref/res/layout/activity_sharedpref2.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_page2.xml" partName="activity_page2.xml" path="D:/adt-bundle-windows-x86/New folder/task3/res/layout/activity_page2.xml" title="activity_page2.xml" tooltip="task3/res/layout/activity_page2.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/task3/res/layout/activity_page2.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sharedpref.java" partName="Sharedpref.java" path="D:/adt-bundle-windows-x86/New folder/Sharedpref/src/com/example/sharedpref/Sharedpref.java" title="Sharedpref.java" tooltip="Sharedpref/src/com/example/sharedpref/Sharedpref.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sharedpref/src/com/example/sharedpref/Sharedpref.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1169" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="D:/adt-bundle-windows-x86/New folder/task3/src/com/example/task3/MainActivity.java" title="MainActivity.java" tooltip="task3/src/com/example/task3/MainActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/task3/src/com/example/task3/MainActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1375" selectionTopPixel="395"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sharedpref2.java" partName="Sharedpref2.java" path="D:/adt-bundle-windows-x86/New folder/Sharedpref/src/com/example/sharedpref/Sharedpref2.java" title="Sharedpref2.java" tooltip="Sharedpref/src/com/example/sharedpref/Sharedpref2.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Sharedpref/src/com/example/sharedpref/Sharedpref2.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1121" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Page2.java" partName="Page2.java" path="D:/adt-bundle-windows-x86/New folder/task3/src/com/example/task3/Page2.java" title="Page2.java" tooltip="task3/src/com/example/task3/Page2.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/task3/src/com/example/task3/Page2.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="605" selectionTopPixel="0"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_activity1.xml" partName="activity_activity1.xml" path="D:/adt-bundle-windows-x86/New folder/Loginsave/res/layout/activity_activity1.xml" title="activity_activity1.xml" tooltip="Loginsave/res/layout/activity_activity1.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Loginsave/res/layout/activity_activity1.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_activity2.xml" partName="activity_activity2.xml" path="D:/adt-bundle-windows-x86/New folder/Loginsave/res/layout/activity_activity2.xml" title="activity_activity2.xml" tooltip="Loginsave/res/layout/activity_activity2.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Loginsave/res/layout/activity_activity2.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Activity1.java" partName="Activity1.java" path="D:/adt-bundle-windows-x86/New folder/Loginsave/src/com/example/loginsave/Activity1.java" title="Activity1.java" tooltip="Loginsave/src/com/example/loginsave/Activity1.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Loginsave/src/com/example/loginsave/Activity1.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="31" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Activity2.java" partName="Activity2.java" path="D:/adt-bundle-windows-x86/New folder/Loginsave/src/com/example/loginsave/Activity2.java" title="Activity2.java" tooltip="Loginsave/src/com/example/loginsave/Activity2.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Loginsave/src/com/example/loginsave/Activity2.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="652" selectionTopPixel="65"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Mainpage.java" partName="Mainpage.java" path="D:/adt-bundle-windows-x86/New folder/fourfuncapp/src/com/example/fourfuncapp/Mainpage.java" title="Mainpage.java" tooltip="fourfuncapp/src/com/example/fourfuncapp/Mainpage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fourfuncapp/src/com/example/fourfuncapp/Mainpage.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1428" selectionTopPixel="281"/>
+</editor>
+<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="fourfuncapp Manifest" path="D:/adt-bundle-windows-x86/New folder/fourfuncapp/AndroidManifest.xml" title="fourfuncapp Manifest" tooltip="fourfuncapp/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/fourfuncapp/AndroidManifest.xml"/>
 </editor>
 </editors>
 <views>
@@ -109,7 +132,7 @@
 </view>
 <view id="com.android.ide.eclipse.hierarchyviewer.views.PropertyView" partName="View Properties"/>
 </views>
-<perspectives activePart="com.android.ide.eclipse.editors.CommonXmlEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
 <descriptor class="com.android.ide.eclipse.ddms.Perspective" id="com.android.ide.eclipse.ddms.Perspective" label="DDMS"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -248,6 +271,7 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.pde.runtime.LogView"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <fastViewBars/>
 <layout>
@@ -297,13 +321,15 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@10446ea" ratio="0.8774834" ratioLeft="795" ratioRight="111" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.pde.runtime.LogView" appearance="2" expanded="2">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@10446ea" ratio="0.7560706" ratioLeft="685" ratioRight="221" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.pde.runtime.LogView" label="Error Log"/>
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -423,151 +449,156 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/task3/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/task3/res/layout/activity_page2.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/task3/src/com/example/task3/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bundle/src/com/example/bundle/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Colorchanger/src/com/example/colorchanger/Changecolor.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/task3/src/com/example/task3/Page2.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bundle/src/com/example/bundle/Secondary.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Sharedpref/res/layout/activity_sharedpref.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sharedpref/src/com/example/sharedpref/Sharedpref.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sharedpref/src/com/example/sharedpref/Sharedpref2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Loginsave/res/layout/activity_activity1.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Loginsave/res/layout/activity_activity2.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Loginsave/src/com/example/loginsave/Activity1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Loginsave/src/com/example/loginsave/Activity2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/fourfuncapp/src/com/example/fourfuncapp/Mainpage.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/fourfuncapp/AndroidManifest.xml"/>
 </editors>
-<item historyLabel="Changecolor.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Sharedpref.java" index="1">
+<position info="not_deleted" x="1209" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="900" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="1034" y="85"/>
-</item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="931" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="346" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="924" y="0"/>
-</item>
-<item historyLabel="activity_page2.xml" index="1"/>
-<item historyLabel="Page2.java" index="5">
+<item historyLabel="Sharedpref2.java" index="2">
 <position/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="924" y="0"/>
+<item historyLabel="Sharedpref.java" index="1">
+<position info="not_deleted" x="1209" y="0"/>
 </item>
-<item historyLabel="Secondary.java" index="6">
+<item historyLabel="Sharedpref2.java" index="2">
+<position info="not_deleted" x="1003" y="0"/>
+</item>
+<item historyLabel="Sharedpref.java" index="1">
+<position info="not_deleted" x="31" y="0"/>
+</item>
+<item historyLabel="Sharedpref2.java" index="2">
+<position info="not_deleted" x="1121" y="0"/>
+</item>
+<item historyLabel="Sharedpref.java" index="1">
+<position info="not_deleted" x="1467" y="0"/>
+</item>
+<item historyLabel="activity_activity1.xml" index="3"/>
+<item historyLabel="activity_sharedpref.xml" index="0"/>
+<item historyLabel="activity_activity1.xml" index="3"/>
+<item historyLabel="activity_activity2.xml" index="4"/>
+<item historyLabel="Sharedpref.java" index="1">
+<position info="not_deleted" x="1466" y="0"/>
+</item>
+<item historyLabel="activity_activity1.xml" index="3"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="1067" y="0"/>
+</item>
+<item historyLabel="Sharedpref.java" index="1">
+<position info="not_deleted" x="1466" y="0"/>
+</item>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="1616" y="0"/>
+</item>
+<item historyLabel="Sharedpref.java" index="1">
+<position info="not_deleted" x="990" y="0"/>
+</item>
+<item historyLabel="activity_activity2.xml" index="4"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="1616" y="0"/>
+</item>
+<item historyLabel="Activity1.java" index="5">
 <position/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="924" y="0"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="1116" y="0"/>
 </item>
-<item historyLabel="Page2.java" index="5">
-<position/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="1508" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="924" y="0"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="956" y="0"/>
 </item>
-<item historyLabel="Page2.java" index="5">
-<position/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="1508" y="0"/>
 </item>
-<item historyLabel="Page2.java" index="5">
-<position/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="1566" y="1"/>
 </item>
-<item historyLabel="Page2.java" index="5">
-<position/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="1599" y="0"/>
 </item>
-<item historyLabel="Page2.java" index="5">
-<position info="not_deleted" x="694" y="0"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="1470" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="0">
-<position info="not_deleted" x="514" y="0"/>
+<item historyLabel="activity_sharedpref.xml" index="0"/>
+<item historyLabel="Sharedpref.java" index="1">
+<position info="not_deleted" x="1169" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="666" y="0"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="1470" y="0"/>
 </item>
-<item historyLabel="activity_page2.xml" index="1"/>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="1652" y="0"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="908" y="0"/>
 </item>
-<item historyLabel="Page2.java" index="5">
-<position info="not_deleted" x="786" y="0"/>
+<item historyLabel="Sharedpref.java" index="1">
+<position info="not_deleted" x="1169" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="1652" y="0"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="908" y="0"/>
 </item>
-<item historyLabel="Page2.java" index="5">
-<position info="not_deleted" x="786" y="0"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="689" y="0"/>
 </item>
-<item historyLabel="Page2.java" index="5">
-<position info="not_deleted" x="680" y="3"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="730" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="1375" y="0"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="208" y="0"/>
 </item>
-<item historyLabel="Page2.java" index="5">
-<position info="not_deleted" x="716" y="0"/>
+<item historyLabel="Activity2.java" index="6">
+<position info="not_deleted" x="397" y="0"/>
 </item>
-<item historyLabel="Secondary.java" index="6">
-<position info="not_deleted" x="866" y="85"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="918" y="711"/>
 </item>
-<item historyLabel="Page2.java" index="5">
-<position info="not_deleted" x="716" y="0"/>
+<item historyLabel="Activity2.java" index="6">
+<position info="not_deleted" x="927" y="0"/>
 </item>
-<item historyLabel="Page2.java" index="5">
-<position info="not_deleted" x="716" y="0"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="1328" y="172"/>
 </item>
-<item historyLabel="activity_page2.xml" index="1"/>
-<item historyLabel="Page2.java" index="5">
-<position info="not_deleted" x="716" y="0"/>
+<item historyLabel="Activity2.java" index="6">
+<position info="not_deleted" x="878" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="1375" y="0"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="441" y="21"/>
 </item>
-<item historyLabel="Page2.java" index="5">
-<position info="not_deleted" x="716" y="0"/>
+<item historyLabel="Activity2.java" index="6">
+<position info="not_deleted" x="397" y="0"/>
 </item>
-<item historyLabel="activity_page2.xml" index="1"/>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="activity_page2.xml" index="1"/>
-<item historyLabel="Page2.java" index="5">
-<position info="not_deleted" x="716" y="0"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="640" y="51"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="1375" y="0"/>
+<item historyLabel="Activity2.java" index="6">
+<position info="not_deleted" x="899" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="activity_page2.xml" index="1"/>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="1375" y="0"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="640" y="51"/>
 </item>
-<item historyLabel="Page2.java" index="5">
-<position info="not_deleted" x="716" y="0"/>
+<item historyLabel="Activity2.java" index="6">
+<position info="not_deleted" x="652" y="0"/>
 </item>
-<item historyLabel="Page2.java" index="5">
-<position info="not_deleted" x="281" y="0"/>
+<item historyLabel="Activity1.java" index="5">
+<position info="not_deleted" x="640" y="51"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="1375" y="0"/>
+<item historyLabel="Mainpage.java" index="7">
+<position info="not_deleted" x="1428" y="0"/>
 </item>
-<item historyLabel="activity_page2.xml" index="1"/>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="1375" y="0"/>
-</item>
-<item historyLabel="Page2.java" index="5">
-<position info="not_deleted" x="605" y="0"/>
-</item>
-<item historyLabel="activity_page2.xml" index="1"/>
-<item active="true" historyLabel="activity_main.xml" index="0"/>
+<item active="true" historyLabel="fourfuncapp Manifest" index="8"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -576,55 +607,54 @@
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.HeapStatus"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@10446ea"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Secondary.java" tooltip="Bundle/src/com/example/bundle/Secondary.java">
-<persistable path="/Bundle/src/com/example/bundle/Secondary.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="fourfuncapp/AndroidManifest.xml">
+<persistable path="/fourfuncapp/AndroidManifest.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Page2.java" tooltip="task3/src/com/example/task3/Page2.java">
-<persistable path="/task3/src/com/example/task3/Page2.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Mainpage.java" tooltip="fourfuncapp/src/com/example/fourfuncapp/Mainpage.java">
+<persistable path="/fourfuncapp/src/com/example/fourfuncapp/Mainpage.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Changecolor.java" tooltip="Colorchanger/src/com/example/colorchanger/Changecolor.java">
-<persistable path="/Colorchanger/src/com/example/colorchanger/Changecolor.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Activity2.java" tooltip="Loginsave/src/com/example/loginsave/Activity2.java">
+<persistable path="/Loginsave/src/com/example/loginsave/Activity2.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="Bundle/src/com/example/bundle/MainActivity.java">
-<persistable path="/Bundle/src/com/example/bundle/MainActivity.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Activity1.java" tooltip="Loginsave/src/com/example/loginsave/Activity1.java">
+<persistable path="/Loginsave/src/com/example/loginsave/Activity1.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="task3/src/com/example/task3/MainActivity.java">
-<persistable path="/task3/src/com/example/task3/MainActivity.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_activity2.xml" tooltip="Loginsave/res/layout/activity_activity2.xml">
+<persistable path="/Loginsave/res/layout/activity_activity2.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_page2.xml" tooltip="task3/res/layout/activity_page2.xml">
-<persistable path="/task3/res/layout/activity_page2.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_activity1.xml" tooltip="Loginsave/res/layout/activity_activity1.xml">
+<persistable path="/Loginsave/res/layout/activity_activity1.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sharedpref2.java" tooltip="Sharedpref/src/com/example/sharedpref/Sharedpref2.java">
+<persistable path="/Sharedpref/src/com/example/sharedpref/Sharedpref2.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sharedpref.java" tooltip="Sharedpref/src/com/example/sharedpref/Sharedpref.java">
+<persistable path="/Sharedpref/src/com/example/sharedpref/Sharedpref.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_sharedpref2.xml" tooltip="Sharedpref/res/layout/activity_sharedpref2.xml">
+<persistable path="/Sharedpref/res/layout/activity_sharedpref2.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_sharedpref.xml" tooltip="Sharedpref/res/layout/activity_sharedpref.xml">
+<persistable path="/Sharedpref/res/layout/activity_sharedpref.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="task3/res/layout/activity_main.xml">
 <persistable path="/task3/res/layout/activity_main.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Forgotpwpage.java" tooltip="Faceappgram/src/com/sreeram/Faceappgram/Forgotpwpage.java">
-<persistable path="/Faceappgram/src/com/sreeram/Faceappgram/Forgotpwpage.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Login.java" tooltip="Faceappgram/src/com/sreeram/Faceappgram/Login.java">
-<persistable path="/Faceappgram/src/com/sreeram/Faceappgram/Login.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Createacc.java" tooltip="Faceappgram/src/com/sreeram/Faceappgram/Createacc.java">
-<persistable path="/Faceappgram/src/com/sreeram/Faceappgram/Createacc.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_login.xml" tooltip="Faceappgram/res/layout/activity_login.xml">
-<persistable path="/Faceappgram/res/layout/activity_login.xml"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_forgotpwpage.xml" tooltip="Faceappgram/res/layout/activity_forgotpwpage.xml">
 <persistable path="/Faceappgram/res/layout/activity_forgotpwpage.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_createacc.xml" tooltip="Faceappgram/res/layout/activity_createacc.xml">
-<persistable path="/Faceappgram/res/layout/activity_createacc.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Createaccount.java" tooltip="Twitter/src/com/sree/twitter/Createaccount.java">
+<persistable path="/Twitter/src/com/sree/twitter/Createaccount.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_secondary.xml" tooltip="Bundle/res/layout/activity_secondary.xml">
-<persistable path="/Bundle/res/layout/activity_secondary.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="loginlinearlayout/res/layout/activity_main.xml">
+<persistable path="/loginlinearlayout/res/layout/activity_main.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_secondary.xml" tooltip="Bundle/res/menu/activity_secondary.xml">
-<persistable path="/Bundle/res/menu/activity_secondary.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Login.java" tooltip="Facebook/src/com/example/facebook/Login.java">
+<persistable path="/Facebook/src/com/example/facebook/Login.java"/>
 </file>
 </mruList>
 </workbench>

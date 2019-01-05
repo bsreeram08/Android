@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Forgotpwpage" 
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background_fill"
+    android:weightSum="17"
+    >
+	<View 
+	    android:layout_width="0dp"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:ems="20"
+        android:text="Enter Email Address regestered with your account." />
+	<View 
+	    android:layout_width="0dp"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:ems="10"
+        android:layout_weight="1"
+        android:background="@drawable/textfield_create"
+        android:layout_height="wrap_content"
+         />
+	<View 
+	    android:layout_width="0dp"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:text="Or Your Phone Number regestered with the account."
+        android:ems="20" />
+	<View 
+	    android:layout_width="0dp"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/textfield_create" />
+		<View 
+	    android:layout_width="0dp"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:background="@drawable/backbtn"
+        android:text="Verify" />
+
+		<View 
+	    android:layout_width="0dp"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the OTP recieved below."
+        android:textColor="#DDDDDD"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+		<View 
+	    android:layout_width="0dp"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textfield_create"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberPassword" />
+
+		<View 
+	    android:layout_width="0dp"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:background="@drawable/backbtn"
+        android:text="Submit" />
+
+		<View 
+	    android:layout_width="0dp"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    />
+</LinearLayout>

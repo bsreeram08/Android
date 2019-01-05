@@ -87,7 +87,6 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:background="@drawable/button_bg"
-            android:background="#33CBFF"
             android:text="SignUp" />
 		<View
             android:layout_weight="1" 
